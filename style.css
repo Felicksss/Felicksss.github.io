@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@400;500;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+:root {
+--main-color:#1bbc9b ;
+--second-color: #bc1b3c;
+}
+.bakunin {
+	color: snow;
+	font-size: 70px;
+	background-color: lightgreen;
+	border-radius: 50px;
+
+}
+hr {
+	height: 1vh;
+	color: black;
+	width: 100vw;
+	background-color: black;
+
+}
+.pop {
+	width: 100%;
+}
+h3 {
+	color: darkblue;
+}
+
+     .main { 
+     	background-color: black;
+     	width: 80%;
+     	margin: 6% auto;
+     	padding: 1%;
+     	border-radius: 10%;
+     	border: 10% solid black;
+     	font-size: 40px;
+     	height: 100px auto;
+     }
+body{
+	background-color: var(--main-color);
+	background: url(https://pixelbox.ru/wp-content/uploads/2021/09/anime-background-vk-45.jpg);
+}
+h1 {
+	color: white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+	color: white;
+}
+
+header {
+	width: 100%;
+	padding: 4rem 5rem;
+	display: flex;
+	background-color: var(--second-color);
+	align-items: center;
+	justify-content: space-between;
+	background-image: url(https://sun9-60.userapi.com/c639431/v639431051/36e89/Cpb6OTDWk10.jpg);
+	border-radius: 1%;
+	border: black;
+	background-position: fix;
+ }
+nav a {
+	padding: 0.5rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+h1
+/*img {
+	width: 100%;
+	height: auto;
+}*/
+.header_img_container {
+	width: 100px;
+}
+.gs300 {
+	width: 50%;
+	align=: center;
+	padding: 3rem 4rem;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.cards{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.card {
+	background-color: snow;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	/*flex: 1;*/
+	width: 300px;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 1rem;
+	border: 2px solid black;
+	font-size: 40px;
+
+	/*height: 50px auto;*/
+    
+	padding: 0.7rem;
+	/*width: fit-content;*/
+
+}
+.card-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+.card > img {
+	justify-self: flex-end;
+}
+.pipi {
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613163143_184-p-zheltii-fon-mainkraft-233.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ggg {
+	size: 100%;
+}
+
+
+.main {
+	padding: 6rem 1rem;
+	color: aqua;
+	background-color: goldenrod;
+	font-size: 400%;
+	display:inline-blocK;
+	vertical-align: top;
+}
+form {
+	width: 70%;
+	background: gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem auto;
+	padding: 2rem;
+	gap: 1rem;
+}
+form > input {
+	padding: 0.5em 1rem;
+	border: none;
+	width: 90%;
+	border-radius: 0.2rem;
+	outline: none;
+
+}
+form > textarea {
+	padding: 0.5em 1rem;
+	border: none;
+	border-radius: 0.2rem;
+	resize: vertical;
+	width: 90%;
+	outline: none;
+
+}
+form > button {
+	padding: 0.5em 1rem;
+	border: none;
+	border-radius: 0.2rem;
+	width: 90%;
+
+	outline: none;
+
+}
+.head {
+	font-size: 500%;
+}
+
+@media all and (min-aspect-ratio: 13/10) {
+    @media all and (min-width: 300px) {
+        html {
+            font-size: 4px;
+        }
+    }
+
+    @media all and (min-width: 400px) {
+        html {
+            font-size: 6px;
+        }
+    }
+
+    @media all and (min-width: 500px) {
+        html {
+            font-size: 8px;
+        }
+    }
+
+    @media all and (min-width: 600px) {
+        html {
+            font-size: 10px;
+        }
+    }
+
+    @media all and (min-width: 700px) {
+        html {
+            font-size: 12px;
+        }
+    }
+
+    @media all and (min-width: 800px) {
+        html {
+            font-size: 10px;
+        }
+    }
+
+    @media all and (min-width: 900px) {
+        html {
+            font-size: 12px;
+        }
+    }
+
+    @media all and (min-width: 1000px) {
+        html {
+            font-size: 14px;
+        }
+    }
+
+    @media all and (min-width: 1100px) {
+        html {
+            font-size: 15px;
+        }
+    }
+
+    @media all and (min-width: 1200px) {
+        html {
+            font-size: 17px;
+        }
+    }
+
+    @media all and (min-width: 1400px) {
+        html {
+            font-size: 20px;
+        }
+    }
+
+    @media all and (min-width: 2000px) {
+        html {
+            font-size: 30px;
+        }
+    }
+
+    @media all and (min-width: 3000px) {
+        html {
+            font-size: 40px;
+        }
+    }
+
+    @media all and (min-width: 4000px) {
+        html {
+            font-size: 70px;
+        }
+    }
+}
+
+@media all and (max-aspect-ratio: 13/10) {
+    @media all and (min-width: 300px) {
+        html {
+            font-size: 9px;
+        }
+    }
+
+    @media all and (min-width: 500px) {
+        html {
+            font-size: 12px;
+        }
+    }
+
+    @media all and (min-width: 700px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+    @media all and (min-width: 800px) {
+        html {
+            font-size: 18px;
+        }
+    }
+
+    @media all and (min-width: 900px) {
+        html {
+            font-size: 20px;
+        }
+    }
+
+    @media all and (min-width: 1000px) {
+        html {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+		<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+	<style>
+		@import 'undo.css';
+		@import 'style.css';
+		img {
+			width: 100%;
+			height: auto;
+				}
+		.gallary {
+			display: flex;
+			flex-wrap: wrap;
+			width: 980px;
+			margin: auto;
+		}
+		.column {
+			width: calc(25% - 0.8rem);
+			flex: calc(25% - 0.8rem);
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding: 0 0.4rem;
+			gap: 10px;
+		}
+		.swiper {
+			margin-top: 2rem;
+			width: 600px;
+		 	height: 300px;
+		 	padding: 3rem 2rem;
+		 	
+		 	
+		}
+		.http {
+			width: 40%;
+		}
+		.swiper-slide {
+			outline: none;
+			resize: vertical;
+			left: 150px;
+
+		}
+		.ablom {
+			width: 70%;
+			right: 200px;
+			resize: vertical;
+		}
+		 header    {
+			width: 100%;
+			padding: 2rem 3rem;
+			display: flex;
+			background-color: var(--second-color);
+			align-items: center;
+			justify-content: space-between;
+			background-image: url(https://sun9-60.userapi.com/c639431/v639431051/36e89/Cpb6OTDWk10.jpg);
+			border-radius: 1%;
+			border: black;
+			background-position: fix;
+		 }
+
+
+	</style>
+</head>
+<body>
+	<header>
+	 	<nav>
+	 		<a href="index.html">Главная</a>
+		</nav>
+		 <div class="header_img_container">		 </div>
+	 </header>
+	 <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+ 	<img class="http" src="https://sun1.userapi.com/sun1-89/s/v1/ig2/KR0IGiJ_8_DPVPzhyf1ztY8WHQJTFB51FdWN6Y58RmRINyIja6exEQv2s5VERqtt5NCyjgXCrIhOQ0_Fhw8HSulg.jpg?size=752x854&quality=96&type=album" alt="">
+    </div>
+    <div class="swiper-slide"> 
+ 	<img class="ablom" src="https://i.ytimg.com/vi/swS3Wg5iEaQ/maxresdefault.jpg" alt="">
+    </div>
+    <div class="swiper-slide"> 
+ 	<img class="ablom" src="https://vdp.mycdn.me/getImage?id=276630276688&idx=10&thumbType=32" alt="">
+    </div>
+    <div class="swiper-slide"> 
+ 	<img class="ablom" src="http://pm1.narvii.com/6895/617df307f1ffe88f8898af4a035ad3af2bcc2a48r1-936-1014v2_uhq.jpg" alt="">
+    </div>
+    <div class="swiper-slide"> 
+ 	<img class="ablom" src="https://i.ytimg.com/vi/swS3Wg5iEaQ/maxresdefault.jpg" alt="">
+    </div>
+    <div class="swiper-slide">
+    	<img src="" alt="">
+    </div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper('.swiper', {
+// Optional parameters
+direction: 'horizontal',
+loop: true,
+
+// If we need pagination
+pagination: {
+el: '.swiper-pagination',
+},
+
+// Navigation arrows
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+
+// And if we need scrollbar
+scrollbar: {
+el: '.swiper-scrollbar',
+},
+ autoplay: {
+   delay: 3000,
+ },
+});
+	
+</script>
+</body>
+</html>
